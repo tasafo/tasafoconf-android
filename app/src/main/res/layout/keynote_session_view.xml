@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="#388e3c" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <!--<include layout="@layout/base_session_view" />-->
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            tools:showIn="@layout/break_session_view">
+
+            <TextView
+                android:id="@+id/start_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:text="0800" />
+
+            <TextView
+                android:id="@+id/end_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/start_time"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:text="0900" />
+
+
+            <TextView
+                android:id="@+id/session_title"
+                android:layout_marginLeft="16dp"
+                android:layout_width="wrap_content"
+                android:layout_toRightOf="@id/end_time"
+                android:layout_toEndOf="@id/end_time"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Credenciamento e café da manhã" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/first_speaker_icon"
+                android:layout_width="48dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/session_title"
+                android:layout_toRightOf="@+id/end_time"
+                android:src="@drawable/ic_account"
+                android:layout_height="48dp" />
+
+            <TextView
+                android:id="@+id/first_speaker_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@+id/first_speaker_icon"
+                android:layout_below="@+id/session_title"
+                android:text="Speaker Name"/>
+
+            <TextView
+                android:id="@+id/first_speaker_work_at"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/first_speaker_icon"
+                android:layout_below="@+id/first_speaker_name"
+                android:text="Speaker Work"/>
+
+            <TextView
+                android:id="@+id/presentation_available"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textColor="#2697f5"
+                android:textSize="12sp"
+                android:layout_below="@id/first_speaker_work_at"
+                android:text="Slides disponíveis"/>
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SessionView">
+        <attr name="startTime" format="string" />
+        <attr name="endTime" format="string" />
+        <attr name="sessionTitle" format="string" />
+        <attr name="speakerIcon" format="integer" />
+        <attr name="speakerName" format="string" />
+        <attr name="speakerJob" format="string" />
+        <attr name="type" format="string"/>
+    </declare-styleable>
+</resources>

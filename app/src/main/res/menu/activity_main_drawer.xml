@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/nav_home" />
+
+        <item
+            android:id="@+id/nav_briefs"
+            android:icon="@drawable/ic_format_quote_black_24dp"
+            android:title="@string/nav_briefs" />
+
+        <item
+            android:id="@+id/nav_press"
+            android:icon="@drawable/ic_stars_black_24dp"
+            android:title="@string/nav_press" />
+
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:title="@string/nav_schedule" />
+
+        <item
+            android:id="@+id/nav_speakers"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="@string/nav_speakers" />
+
+        <item
+            android:id="@+id/nav_videos"
+            android:icon="@drawable/ic_video_library_black_24dp"
+            android:title="@string/nav_videos" />
+
+        <item
+            android:id="@+id/nav_photos"
+            android:icon="@drawable/ic_photo_library_black_24dp"
+            android:title="@string/nav_photos" />
+
+        <item
+            android:id="@+id/nav_place"
+            android:icon="@drawable/ic_place_black_24dp"
+            android:title="@string/nav_place" />
+
+    </group>
+
+    <item android:title="@string/nav_header_help_and_feedback">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share_variant_black"
+                android:title="@string/nav_share" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_feedback_black_24dp"
+                android:title="@string/nav_feedback" />
+        </menu>
+    </item>
+
+</menu>

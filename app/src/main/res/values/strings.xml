@@ -1,0 +1,172 @@
+<resources>
+    <string name="app_name">Tá Safo Conf 2015</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_launch">LaunchActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_schedule">Programação</string>
+    <string name="nav_speakers">Palestrantes</string>
+    <string name="nav_about">Sobre</string>
+    <string name="nav_place">Localização</string>
+    <string name="nav_videos">Vídeos</string>
+
+    <string-array name="category_entries">
+        <item>Internet</item>
+        <item>Comida</item>
+        <item>Palestras</item>
+        <item>Auditório</item>
+        <item>Salas</item>
+        <item>Outros</item>
+    </string-array>
+
+    <string-array name="category_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="feedback_type_entries">
+        <item>Positivo</item>
+        <item>Negativo</item>
+        <item>Melhoria</item>
+    </string-array>
+
+    <string-array name="feedback_type_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string name="title_activity_speaker_details">SpeakerDetailsActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="title_activity_session_details">SessionDetailsActivity</string>
+    <string name="title_activity_place">Place</string>
+    <string name="social_networks_title">Acompanhe %s</string>
+    <string name="action_sobre">Sobre</string>
+    <string name="action_avaliar_app">Avaliar app</string>
+    <string name="rate_app_dialog_title">Avalie-nos</string>
+    <string name="rate_app_dialog_message">Você gostou da app do Tá Safo Conf 2015? Então dê seu feedback e avalie-nos na Google Play Store.</string>
+    <string name="rate_dialog_positive_button_text">Avaliar</string>
+    <string name="rate_app_dialog_negative_button_text">Não, obrigado.</string>
+    <string name="feedback_successful_sent">Muito obrigado pelo seu feedback!</string>
+    <string name="feedback_sending_error">Ops! Não foi possível enviar</string>
+    <string name="feedback_content_empty">Ops! Você esqueceu de nos dar seu feedback?</string>
+    <string name="about_dialog_positive_button_text">Sobre o Desenvolvedor</string>
+    <string name="about_dialog_neutral_button_text">Visitar Site</string>
+    <string name="about_dialog_content">Este aplicativo foi desenvolvido voluntariamente pelo membro da Comunidade Ramon Ribeiro Rabello, especificamente para o evento. Seu código-fonte foi disponibilizado no GitHub do Tá Safo para melhorias colaborativas.</string>
+    <string name="about_dialog_title">Sobre</string>
+    <string name="title_activity_schedule">Programação</string>
+    <string name="feedback_form_url">https://docs.google.com/forms/d/1BdJ-FwQuTUTHsZtPPWqNkmewnmUB59m1YtJrcHjnOC4/viewform</string>
+    <string name="before_the_day_title">Ops! O evento ainda não chegou!</string>
+    <string name="before_the_day_content">Volte no dia 21 de Novembro e dê seu feedback!</string>
+    <string name="after_the_day_title">Ops! O evento já passou!</string>
+    <string name="after_the_day_content">Se você participou do evento e submeteu seu feedback, muito obrigado pois isso irá nos ajudar muito a fazer um próximo evento muito melhor.</string>
+    <string name="brief_edgar_silva">É uma oportunidade única poder participar do Tá Safo Conf, e eu como um paraense assumidamente papa-chibé, comedor de açaí com farinha, que toma tacacá com muita pimenta, ex-morador da Cidade Nova, estar perto dos meus conterrâneos, meu sotaque é sem sombra de dúvidas um privilégio.</string>
+    <string name="brief_alexandre_magno">O Tá Safo Conf é um evento rico em colaboração e que tem a cara de uma das comunidades mais atuantes do país. Eu fui e recomendo!</string>
+    <string name="brief_carlos_souza">O Tá Safo Conf reune conteúdo atual e relevante tanto a profissionais atuantes no mercado de trabalho quanto àqueles que estão na academia.</string>
+    <string name="brief_manoel_pimentel">O Tá Safo Conf é um verdadeiro Círio da comunidade de TI paraense - Atrai romeiros de TI do Brasil inteiro para socializar suas experiências e histórias sobre novidades e tendências da área de tecnologia.</string>
+    <string name="nav_share">Compartilhe</string>
+    <string name="nav_feedback">Feedback</string>
+    <string name="nav_header_help_and_feedback">Ajuda e Feedback</string>
+    <string name="nav_briefs">Depoimentos</string>
+    <string name="nav_press">Na mídia</string>
+    <string name="nav_photos">Fotos</string>
+    <string name="edgar_silva_profile_image_url">http://tasafo.github.io/conf2015/img/about-section/edgar.jpeg</string>
+    <string name="alexandre_magno_profile_image_url">http://tasafo.github.io/conf2015/img/about-section/magno.jpg</string>
+    <string name="caike_profile_image_url">http://tasafo.github.io/conf2015/img/about-section/caike.jpeg</string>
+    <string name="manoel_profile_image_url">http://tasafo.github.io/conf2015/img/about-section/manoel.jpeg</string>
+</resources>

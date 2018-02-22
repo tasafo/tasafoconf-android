@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    tools:showIn="@layout/break_session_view">
+
+    <TextView
+        android:id="@+id/start_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:text="08:00" />
+
+    <TextView
+        android:id="@+id/end_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/start_time"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:text="09:00" />
+
+
+    <TextView
+        android:id="@+id/session_title"
+        android:layout_marginLeft="16dp"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@id/end_time"
+        android:layout_toEndOf="@id/end_time"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Credenciamento e café da manhã" />
+
+</RelativeLayout>
